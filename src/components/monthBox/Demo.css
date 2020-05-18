@@ -1,0 +1,30 @@
+.edit {
+  border: 1px solid grey;
+  color: brown;
+  position: relative;
+  display: block;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(255, 75, 43);
+  display: block;
+  position: relative;
+  width: 300px;
+
+
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul {
+  margin: 0 0 0 0;
+}
+
+li{
+z-index: -1;
+}

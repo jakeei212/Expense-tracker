@@ -1,0 +1,76 @@
+.input-range__label-container {
+  color: rgb(255, 255, 255);
+  top: 65px;
+}
+
+.input-range__label {
+  bottom: 75px !important;
+  font-size: 0 !important;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.input-range__slider {
+  background: #f78900 !important;
+  border-color: #f78900 !important;
+  height: 50px !important;
+  width: 50px !important;
+  position: relative !important;
+  top: -23px !important;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.input-range__track--active {
+  background: rgb(241, 191, 124) !important;
+  height: 10px !important;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.input-range__track {
+  height: 20px !important;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+$char-w: 1ch;
+$gap: 1 * $char-w;
+$n-char: 4;
+$in-w: $n-char * ($char-w + $gap);
+
+.input {
+  position: relative;
+  top: -80px;
+  left: 5px;
+  display: block;
+  margin: 1.5em auto;
+  border: none;
+  padding: 0;
+  width: $in-w + 1;
+  background: repeating-linear-gradient(
+      90deg,
+      dimgrey 0,
+      dimgrey $char-w,
+      transparent 0,
+      transparent $char-w + $gap
+    )
+    0 100% / #{$in-w - $gap} 2px no-repeat;
+  font: 5ch droid sans mono, consolas, monospace;
+  letter-spacing: $gap;
+
+  &:focus {
+    outline: none;
+    color: dodgerblue;
+  }
+}
+
+img {
+  width: 90px;
+  height: 100px;
+  float: right;
+}
+
+.title {
+color: transparentize($color: #ffffff, $amount: 0);
+}
