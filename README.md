@@ -1,4 +1,4 @@
-###Expense tracker made with react and firebse check out the demo with cartooned themed with love 
+Expense tracker made with react and firebse check out the demo with cartooned themed with love 
 keeping track of all expenses and save them in months
 *it better then youre calculater.....   or maybe not....
 ![3](https://user-images.githubusercontent.com/53650114/82448588-96053000-9ab2-11ea-8cd3-ebc4212c6330.png)
